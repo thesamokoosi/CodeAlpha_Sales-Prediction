@@ -31,29 +31,32 @@ channel has the strongest impact on sales outcomes.
 ## 📊 Model Results
 | Model | R² Score | MAE |
 |-------|----------|-----|
-| Linear Regression | ~0.89 | ~1.4 |
-| Random Forest | ~0.95 | ~0.9 |
-| Gradient Boosting | ~0.96 | ~0.8 |
+| Linear Regression | 0.8994 | 1.4608 |
+| Random Forest | 0.9813 | o.6207 |
+| Gradient Boosting | 0.9831| 0.6181 |
 
 > ✅ **Best Model: Gradient Boosting** with the highest R² score
 
 ---
 
-## 📁 Project Structure
-
-
----
-
 ## 🔍 Key Insights
-- 📺 TV advertising has the strongest correlation with sales
+- 📺 TV advertising has the strongest correlation with sales; Business insight : TV ads drive the most sales impact.
 - 📻 Radio has a moderate positive impact on sales
 - 📰 Newspaper spend has the weakest influence on sales
 - 💡 Reallocating budget from Newspaper → TV/Radio is likely to boost sales
 - 🤖 Gradient Boosting delivered the best predictive performance
 
+- Best model : Gradient Boosting
+- Best R² score : 0.9831
+- Best MAE : 0.6181 units
+- TV correlation : 0.7822 ← strongest predictor
+- Radio correlation : 0.5762
+- Newspaper corr. : 0.2283 ← weakest predictor
+- Avg sales : 14.02 units
+- Max sales : 27.00 units
 ---
 
-## 📷 Sample Visualizations
+## 📷 Visualizations
 
 
 ![Spend vs Sales](plot2_spend_vs_sales.png)
@@ -81,6 +84,6 @@ channel has the strongest impact on sales outcomes.
 ---
 
 ## 👤 Author
-**[Your Name]**
+**Samuel Okoosi**
 CodeAlpha Data Science Intern
-[LinkedIn Profile](https://linkedin.com/in/yourprofile) • [GitHub](https://github.com/yourusername)
+[LinkedIn](https://linkedin.com/in/thesamokoosi) • [GitHub](https://github.com/thesamokoosi)
